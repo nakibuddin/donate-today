@@ -1,0 +1,168 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.head_section{
+    height: 650px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin-bottom: 120px;
+    /* opacity: .9;         */
+}
+.head_sec_header{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.h4_head_section{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.donate_button{    
+    font-size: 20px;
+    color: white;
+    margin-left: 44%;
+    text-decoration: none;
+    background-color: rgb(253, 92, 92);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+
+
+
+/* .donate_plan_header{ */
+.section_header{    
+    font-size: 40px;
+    text-align: center;    
+    margin-bottom: 0px;
+}
+.donate_today_parent_div{
+    display: flex;
+    padding: 0 22%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.donate_today_child_div{
+    height: 75px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    margin-left: 2%;
+    padding: 20px 0 20px 0;    
+    border-radius: 8px;
+}
+.donate_today_child_selected_div{
+    height: 75px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(209, 187, 187);
+    margin-left: 2%;
+    padding: 20px 0 20px 0;    
+    border-radius: 8px;
+    border: 3px solid rgb(253, 92, 92);
+    color: rgb(253, 92, 92);
+}
+.other_amount_tk{
+    font-size: 18px;
+    padding: 0px 260px 0px 260px;
+    margin-left: 320px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.h4_outside_block{
+    color: rgb(116, 106, 106);
+    margin: 0px;
+    text-align: center;
+}
+.h4_inside_block{
+    color: rgb(116, 106, 106);
+    margin-bottom: 0px;
+    
+}
+.donate_plan_parent_div{
+    display: flex;
+    padding: 0 12%;
+}
+.donate_plan_child_div1{
+    width: 35%;    
+    background-color: #d6d8db;
+    padding: 45px 30px;
+    margin: 48px 2% 0 0;
+    border-radius: 5px;
+}
+.donate_plan_child_div2{
+    width: 35%;    
+    background-color: #b89090;
+    padding: 45px 30px;
+    margin: 48px 2% 0 0;
+    border-radius: 5px;
+}
+.donate_plan_child_div3{
+    width: 35%;    
+    background-color: #f58989;
+    padding: 45px 30px;
+    margin: 48px 2% 0 0;
+    border-radius: 5px;
+}
+
+
+
+
+.get_my_updates_section{
+    margin-top: 120px;
+}
+.get_updates_parent_div{
+    background-color: #f5dcdc;
+    width: 750px;
+    height: 180px;
+    margin: 50px 300px;
+    display: flex;
+}
+.get_updates_email{
+    margin: 60px 0px 60px 170px;
+    font-size: 16px;
+    padding: 10px 40px 10px 20px;
+    background-color: rgb(199, 187, 187);
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 20px;  
+}
+.get_updates_subscribe{
+    margin: 60px 0px 60px 0px;
+    font-size: 16px;
+    padding: 10px 40px;
+    background-color: rgb(253, 92, 92);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+}
+
+
+
+footer{
+    height: 100px;    
+    color: white;    
+    background: black;    
+    text-align: center;
+    padding: 35px;
+}
+.footer_span{
+    color: rgb(241, 120, 120);
+    font-size: 28px;
+    font-weight: bold;    
+    display: block;  
+}
