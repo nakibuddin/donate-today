@@ -45,6 +45,11 @@ header{
     text-align: center;    
     margin-bottom: 0px;
 }
+.h4_outside_block{
+    color: rgb(116, 106, 106);
+    margin: 0px;
+    text-align: center;
+}
 .donate_today_parent_div{
     display: flex;
     padding: 0 22%;
@@ -82,11 +87,6 @@ header{
 
 
 /* Our Donate Plan section css */
-.h4_outside_block{
-    color: rgb(116, 106, 106);
-    margin: 0px;
-    text-align: center;
-}
 .h4_inside_block{
     color: rgb(116, 106, 106);
     margin-bottom: 0px;
@@ -120,10 +120,24 @@ header{
 
 
 
-/* Get My Updates section css */
-.get_my_updates_section{
-    margin-top: 120px;
+/* video section css */
+.video_div1{
+    display: flex;
+    padding-left: 110px;
+    padding-bottom: 5px;    
 }
+.video_div2{
+    display: flex;
+    padding-left: 110px;
+}
+iframe{
+    margin-right: 5px;
+    /* border: 2px solid rgb(253, 92, 92); */
+    /* border: 2px solid black; */
+}
+
+
+/* Get My Updates section css */
 .get_my_updates_form{
     background-color: #f5dcdc;
     width: 750px;
