@@ -3,7 +3,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-.head_section{
+/* Header section css*/
+header{
     height: 650px;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -11,14 +12,14 @@ body{
     margin-bottom: 120px;
     /* opacity: .9;         */
 }
-.head_sec_header{
+.header_section_header{
     color: white;
     font-size: 60px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.h4_head_section{
+.h4_header_section{
     color: white;
     text-align: center;
     font-weight: 100;
@@ -38,8 +39,8 @@ body{
 
 
 
-/* .donate_plan_header{ */
-.section_header{    
+/* Donate Today section css */
+.other_section_header{    
     font-size: 40px;
     text-align: center;    
     margin-bottom: 0px;
@@ -80,7 +81,7 @@ body{
 
 
 
-
+/* Our Donate Plan section css */
 .h4_outside_block{
     color: rgb(116, 106, 106);
     margin: 0px;
@@ -119,18 +120,18 @@ body{
 
 
 
-
+/* Get My Updates section css */
 .get_my_updates_section{
     margin-top: 120px;
 }
-.get_updates_parent_div{
+.get_my_updates_form{
     background-color: #f5dcdc;
     width: 750px;
     height: 180px;
     margin: 50px 300px;
     display: flex;
 }
-.get_updates_email{
+.get_my_updates_email{
     margin: 60px 0px 60px 170px;
     font-size: 16px;
     padding: 10px 40px 10px 20px;
@@ -140,7 +141,7 @@ body{
     border-top-left-radius: 5px;
     height: 20px;  
 }
-.get_updates_subscribe{
+.get_my_updates_subscribe{
     margin: 60px 0px 60px 0px;
     font-size: 16px;
     padding: 10px 40px;
@@ -152,7 +153,7 @@ body{
 }
 
 
-
+/* Footer section css */
 footer{
     height: 100px;    
     color: white;    
